@@ -10,7 +10,6 @@ A production-ready Spring Boot engine built to manage **client-specific, dynamic
 *   **Runtime Mutations:** Instantly reschedule or pause active timers on demand via REST APIs.
 *   **Database Persistence (H2):** All configuration matrices survive system crashes or manual reboots.
 *   **Safe Lifecycle Hydration:** Rebuilds and schedules running tasks dynamically into memory automatically upon server startup.
-*   **Optimistic Locking Protection:** Implements transactional native upsert structures to completely prevent Hibernate concurrency errors (`StaleObjectStateException`).
 
 ---
 
